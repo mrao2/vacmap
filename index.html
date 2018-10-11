@@ -14,10 +14,13 @@
             mapboxgl.accessToken = 'pk.eyJ1IjoibXJhbzIiLCJhIjoiY2ppZmFoazE5MGZiMjNwcXBtb3gyenk4cyJ9.nmFZofR-kOqj8yYfaJc2XQ';
             var map = new mapboxgl.Map({
                 container: 'map',
-                style: 'mapbox://styles/mapbox/streets-v10'
+                style: 'mapbox://styles/mapbox/streets-v10',
+                center: [38.63, -90.2], // starting position
+                zoom: 9 // starting zoom
             });
             
             map.addControl(new mapboxgl.FullscreenControl());
+            map.addControl(new mapboxgl.NavigationControl());
         </script>
     </body>
 </html>

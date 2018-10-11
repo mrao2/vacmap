@@ -1,0 +1,15 @@
+{
+  "name": "vacmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mapbox-gl": "^0.50.0-beta.1",
+    "webpack": "^4.20.2"
+  }
+}
